@@ -6,7 +6,7 @@ from groq import Groq
 st.set_page_config(page_title="GEN AI PROJECT")
 
 # Load the API key
-api_key=st.secrets["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"]
+api_key=st.secrets["API_KEY"]
 
 # Initialize the Groq client
 client=Groq(api_key=api_key)
